@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolioHUB | Lucas Henrique Cortez</title>
+    <style>
+        :root {
+            --primary: #001e3c;
+            --secondary: #0071c5; 
+            --accent: #00df9a;
+            --text: #333;
+            --bg: #f4f7f6;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); margin: 0; }
+        header { background: var(--primary); color: white; padding: 2rem 0; text-align: center; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 20px; }
+        section { background: white; padding: 2rem; margin-bottom: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1, h2 { color: var(--primary); border-bottom: 2px solid var(--secondary); padding-bottom: 10px; }
+        .profile-header { display: flex; align-items: center; gap: 2rem; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--secondary); object-fit: cover; background: #ddd; }
+        .cert-badge { background: #e3f2fd; border-left: 5px solid var(--secondary); padding: 1rem; margin-top: 1rem; }
+        .skill-tag { display: inline-block; background: var(--secondary); color: white; padding: 5px 15px; border-radius: 20px; margin: 5px; font-size: 0.9rem; }
+        footer { text-align: center; padding: 2rem; background: var(--primary); color: white; margin-top: 2rem; }
+        a { color: var(--secondary); text-decoration: none; font-weight: bold; }
+        
+        /* Ajuste para telas menores */
+        @media (max-width: 600px) {
+            .profile-header { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>portfolioHUB</h1>
+    <p>Projeto Profissional Digital | Lucas Henrique Cortez</p>
+</header>
+
+<div class="container">
+    <section id="perfil">
+        <h2>1. Perfil Pessoal</h2>
+        <div class="profile-header">
+            <img src="3385.jpg" alt="Foto de Lucas Henrique Cortez" class="profile-img">
+            <div>
+                <h3>Lucas Henrique Cortez</h3>
+                <p>Estudante de Tecnologia no <strong>Centro de Ensino Unificado de Brasília (CEUB)</strong>.</p>
+                <p>📧 Email: lucas.hc@sempreceub.com<br>
+                   🔗 <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+            </div>
+        </div>
+        <p>Entusiasta de Cibersegurança focado em proteger ativos digitais e aprender constantemente sobre novas ameaças e tecnologias de defesa.</p>
+    </section>
+
+    <section id="curriculo">
+        <h2>2. Currículo e Formação</h2>
+        <h3>Formação Acadêmica</h3>
+        <p>Graduação em Tecnologia - Centro de Ensino Unificado de Brasília (CEUB).</p>
+
+        <h3>Certificações Internacionais</h3>
+        <div class="cert-badge">
+            <strong>Introdução à Cibersegurança</strong><br>
+            Cisco Networking Academy através do <strong>CEUB</strong>.<br>
+            <em>Concluído em: 25 de Março de 2026</em>.<br>
+            Instrutor: Ricardo Alves Neiva.
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>3. Projetos Acadêmicos</h2>
+        <h3>Desenvolvimento do portfolioHUB</h3>
+        <p>Criação deste portfólio digital utilizando Git e GitHub para apresentar habilidades e conquistas acadêmicas.</p>
+        <ul>
+            <li>Organização de conteúdo textual e multimídia.</li>
+            <li>Implementação de site responsivo e estilizado.</li>
+            <li>Versionamento de código com Git.</li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>4. Habilidades e Competências</h2>
+        <p>Minhas principais competências técnicas:</p>
+        <div style="margin-top: 10px;">
+            <span class="skill-tag">Cibersegurança</span>
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">Redes de Computadores</span>
+            <span class="skill-tag">Markdown & HTML</span>
+            <span class="skill-tag">Resolução de Problemas</span>
+        </div>
+    </section>
+
+    <section id="recomendacoes">
+        <h2>5. Recomendações</h2>
+        <p><em>"Este certificado é concedido a Lucas Henrique Cortez por ter concluído com sucesso o curso de Introdução à Cibersegurança através do programa Cisco Networking Academy."</em></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Lucas Henrique Cortez - Entrega de Desafio Inicial</p>
+    <p><small>Prazo final: 12/04/2026</small></p>
+</footer>
+
+</body>
+</html>
